@@ -1,6 +1,6 @@
 ### beautiful-web-ppt
 
-技术栈：_Lerna_
+技术栈：_Lerna + Vite + ES6 + Scss_
 
 ### PPT-Manager
 

@@ -1,15 +1,22 @@
 {
   "name": "ppt-manager",
-  "version": "1.0.0",
-  "description": "A system that autogenerate beautiful and simple  pages of PPT, and it also support that you can easily create customized PPT.",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "苏夏",
-  "license": "ISC",
   "dependencies": {
+    "antd": "^5.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
   }
 }
